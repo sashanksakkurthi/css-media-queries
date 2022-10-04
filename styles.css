@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#box {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  border-radius: 8px;
+  font-size: 40px;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* screens with more than 640px */
+@media screen and (min-width: 640px) {
+  .main {
+    background-color: #e11d48;
+  }
+  #box {
+    background-color: white;
+    color: #1e293b;
+  }
+}
+
+/* screens with more than 768px */
+@media screen and (min-width: 768px) {
+  .main {
+    background-color: #db2777;
+  }
+}
+
+/* screens with more than 1024px */
+@media screen and (min-width: 1024px) {
+  .main {
+    background-color: #c026d3;
+  }
+}
+
+/* screens with more than 1536px */
+@media screen and (min-width: 1536px) {
+  .main {
+    background-color: #9333ea;
+  }
+}
